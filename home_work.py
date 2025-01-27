@@ -1,3 +1,6 @@
-chek_number=lambda number:" четное " if number % 2 == 0 else "нечетное"
+def max_theree_numbers(*args):
+     return max(args)
 
-print(chek_number(10))
+
+a,b,c=map(int,input().split())
+print(max_theree_numbers(a,b,c))
