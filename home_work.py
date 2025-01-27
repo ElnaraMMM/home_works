@@ -1,6 +1,7 @@
-def max_theree_numbers(*args):
-     return max(args)
+def func(number):
+     if number % 2 == 0:
+          return "четное"
+     else:
+          return "нечетное"
 
-
-a,b,c=map(int,input().split())
-print(max_theree_numbers(a,b,c))
+print(func(10))
